@@ -2,7 +2,7 @@
 import java.util.Scanner;
 public class Loja {
 
-    ublic static void mostrarOpcoesLoja() {
+   public static void mostrarOpcoesLoja() {
         System.out.println("Bem-vindo à Loja!");
         System.out.println("1. Comprar Espada de Ferro Draco");
         System.out.println("2. Comprar Poção de Cura");

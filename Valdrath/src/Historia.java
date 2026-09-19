@@ -1,6 +1,7 @@
 import java.util.Scanner;
 public class Historia {
     public static void Introducao(Scanner scanner) {
+      
         System.out.println("╔══════════════════════════════════════════╗\r\n" + //
                         "║                                          ║\r\n" + //
                         "║   No princípio, houve a Chama.           ║\r\n" + //
@@ -37,5 +38,18 @@ public class Historia {
                         " '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'");
         scanner.nextLine();
         
+    }
+
+    public static void AldricFala (Scanner scanner) {
+
+        System.out.println(
+        " .~~[ ALDRIC ]~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~.\n" +
+        " :                                            :\n" +
+        " :   Levante a cabeça, recruta. Hoje você     :\n" +
+        " :   deixa de ser aprendiz.                   :\n" +
+        " :                                            :\n" +
+        " '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'");
+        scanner.nextLine();
+
     }
 }

@@ -34,6 +34,10 @@ public class App {
                 scanner.nextLine();
                 
             } 
+
+            Historia.AldricFala(scanner);
+
+
             Personagem.registro(Personagem.Heroi);
             Historia.Introducao(scanner);
             
